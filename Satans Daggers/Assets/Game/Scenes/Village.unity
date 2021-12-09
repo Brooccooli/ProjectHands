@@ -711,7 +711,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f03e3ca8f4081024ea1cdb8b2e177e22, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f03e3ca8f4081024ea1cdb8b2e177e22, type: 3}
       propertyPath: m_LocalScale.x
@@ -1117,7 +1117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8301480327076472884, guid: 730c86fc7f1df5242acf52f53d13aec7, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8301480327076472884, guid: 730c86fc7f1df5242acf52f53d13aec7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3224,14 +3224,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Programmer God: Alvin Jangvik
+  m_Text: 'Insect made by: Hugo Lindgren
 
 
-    Model God: Alvin JAngvik
-
-
-    God:
-    Alvin Jangvik'
+    Everything else: Alvin Jangvik, AKA:
+    Brooccooli'
 --- !u!222 &1907468215
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3619,7 +3616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4070583452342398669, guid: dece7f0f5ce0d994b9d778a2d9511aba, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4070583452342398669, guid: dece7f0f5ce0d994b9d778a2d9511aba, type: 3}
       propertyPath: m_LocalScale.x

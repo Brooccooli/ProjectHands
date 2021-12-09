@@ -21,7 +21,9 @@ public class ShardMover : MonoBehaviour
     void Start()
     {
         GetComponent<Rigidbody>().AddForce(transform.up * speed, ForceMode.Impulse);
-        if (!PlayerPrefs.HasKey("Damage"))
+        
+        // Don't use, Might delete, don't know if there's a reference to it anywhere
+        if (PlayerPrefs.HasKey("Damage"))
         {
             PlayerPrefs.SetInt("Damage", 1);
         }
@@ -29,7 +31,6 @@ public class ShardMover : MonoBehaviour
         _filter = GetComponent<MeshFilter>();
         _renderer = GetComponent<MeshRenderer>();
         
-        _dmg = PlayerPrefs.GetInt("Damage");
         _startSize = transform.localScale;
     }
 
