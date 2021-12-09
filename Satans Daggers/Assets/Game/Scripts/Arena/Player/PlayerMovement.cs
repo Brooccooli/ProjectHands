@@ -88,8 +88,6 @@ public class PlayerMovement : MonoBehaviour
         Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity);
         float angle = Vector3.Dot(Vector3.down, hit.normal);
         
-        print(angle);
-        
         if (_controller.isGrounded)
         {
             if (angle > -0.5f)
